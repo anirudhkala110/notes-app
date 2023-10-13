@@ -46,7 +46,7 @@ const Notes = () => {
             setNotes(data)
         }
         else {
-            alert("Nothing")
+            alert("Nothing till now")
         }
     }, [])
     useEffect(() => {
